@@ -1,6 +1,8 @@
 # SQL-library-management
 I designed a database for a library that manages books and their borrowings. The library keeps records of books, authors, library members, and the borrowing history of books.
 Here are some SQL queries that could be useful.
+
+
 **To retrieve a list of all books and their authors.**
 
 SELECT 
@@ -30,4 +32,7 @@ JOIN
     Books ON Borrowing.ISBN = Books.ISBN
 WHERE 
 Borrowing.ISBN = '9780439139601'; 
+
+## Project Status: Completed
+
 
